@@ -8,9 +8,12 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
-    "youtube-api-search": "0.0.5"
+    "youtube-api-search": "0.0.5",
+    "homepage": "https://AnuragParashar2000.github.io/Youtube-Clone"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
